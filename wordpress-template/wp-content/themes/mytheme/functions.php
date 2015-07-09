@@ -81,7 +81,7 @@ add_action( 'wp_enqueue_scripts', function() {
 
     // 1. CSS 样式重置
     // http://cssreset.com
-    wp_enqueue_style('reset', get_template_directory_uri().'/lib/cssreset-min.css', array());
+    wp_enqueue_style('reset', get_template_directory_uri().'/lib/reset.min.css', array());
 
     // 2. 轮播组件 owl-carousel
     // 2.1. Owl Carousel 2
